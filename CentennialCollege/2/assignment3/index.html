@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<!-- -->
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Assignment 03</title>
+<meta content="HTML form, COMP213" name="keywords">
+<meta content="Example of using HTML forms." name="description">
+<link href="Week09Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+<header>
+	<h1>
+	<img alt="Centennial logo" height="209" src="images/CC50thAnniversary.jpg" width="200"><br>
+	Centennial College - Registration Form</h1>
+</header>
+<form method="post" target="popupWindow">
+	<table style="width: 100%">
+		<tr>
+			<td class="fieldLabel">First Name:</td>
+			<td><input name="txtFirstName" size="25" tabindex="1" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Last Name:</td>
+			<td><input name="txtLastName" size="25" tabindex="3" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Email:</td>
+			<td><input name="txtEmail" size="30" tabindex="5" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Select Courses:</td>
+			<td>
+			<select id="courseList" name="lstCourses" size="4" tabindex="37">
+			<option value="COMP100">COMP100 Programming I</option>
+			<option value="COMP125">COMP125 Client Side Development</option>
+			<option value="COMP213">COMP213 Web Interface Design</option>
+			<option value="COMP225">COMP225 Systems I</option>
+			<option value="COMP229">COMP229 Server Side Development</option>
+			</select></td>
+		</tr>
+			<td class="fieldLabel">
+			<input name="btnSubmit" tabindex="41" type="submit" value="Complete Registration Now" onclick="submitData(); return false;"></td>
+		</tr>
+	</table>
+</form>
+&nbsp;<footer>
+<p><a href="../index.html">back to index</a></p>
+	<p id="copyright">&copy;&nbsp;Copyright Guoyang Liu - Assignment 03 - COMP125</p>
+</footer>
+</div>
+</body>
+<script src="Assignment3.js"></script>
+</html>

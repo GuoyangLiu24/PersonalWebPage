@@ -1,0 +1,45 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+	background-image: url('images/trilliumgradient.png');
+}
+h1 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: large;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #6D7005;
+}
+footer {
+	background-color: #6D7005;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #666666;
+	padding: 8px;
+}
+#copyright {
+	font-size: x-small;
+}
+footer a {
+	color: white;
+	text-decoration: none;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+footer a:hover {
+	color: #6D7005;
+	background-color: #C0DC91;
+}
+.fieldLabel {
+	vertical-align: top;
+	text-align: right;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #666666;
+	border: thin solid #6D7005;
+	padding: 10px;
+}
